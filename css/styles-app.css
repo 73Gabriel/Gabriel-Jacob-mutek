@@ -1,5 +1,18 @@
 /*----- Styles Généraux -----*/
 .navbar-custom {
     background-color: #000000;
+}
+
+body {
+    padding-bottom: 100px; /* Ajustement pour le footer */
   }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+}
 /*----- Section Hero -----*/
