@@ -2,10 +2,9 @@
 .navbar-custom {
     background-color: #000000;
 }
-
 body {
-    padding-bottom: 100px; /* Ajustement pour le footer */
-  }
+    padding-bottom: 100px;
+}
 .footer {
     position: fixed;
     bottom: 0;
@@ -14,5 +13,9 @@ body {
     padding: 20px 0;
     color: #ffffff;
     text-align: center;
+}
+
+.main { 
+    margin: top;
 }
 /*----- Section Hero -----*/
