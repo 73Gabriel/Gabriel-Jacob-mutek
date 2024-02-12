@@ -1,9 +1,11 @@
 :root {
-    --blue: #2b59c3;
-    --gris: #628395;
-    --noirpale:#211E1E;
-    --noirfonce:#000000;
-}
+    --bs-light: #2b59c3;
+    --bs-dark: #211e1e;
+    --bs-primary: #000000;
+    --bs-secondary: #11266f;
+    --bs-info: #cacdd2;
+} 
+/* Chnager les couleurs pour ceux de bootstrap*/
 
 @font-face {
     src: url("/fontes/Plain-Medium.otf") format("opentype");
