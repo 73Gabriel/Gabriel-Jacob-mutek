@@ -1,16 +1,21 @@
 /*----- Styles Généraux -----*/
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+a.text-white {
+    text-decoration: none;
+}
+
 
 /*----- Section Hero -----*/
 
 
 /*----- Section footer -----*/
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
 footer {
     margin-top: auto;
