@@ -7,13 +7,13 @@ body {
     padding-top: 150px;
 }
 
+/*----- Section Hero -----*/
+.application{
+    aspect-ratio: 5/9;
+    border: 5px; ;
+}
+
+/*----- Section footer -----*/
 a.text-white {
     text-decoration: none;
 }
-.application{
-    aspect-ratio: 5/9;
-}
-/*----- Section Hero -----*/
-
-
-/*----- Section footer -----*/
