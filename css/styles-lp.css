@@ -10,8 +10,9 @@ body {
 a.text-white {
     text-decoration: none;
 }
-
-
+.application{
+    aspect-ratio: 5/9;
+}
 /*----- Section Hero -----*/
 
 
