@@ -7,16 +7,28 @@ body {
     padding-top: 150px;
 }
 
+
 /*----- Section Hero -----*/
-.application{
+
+.application {
     aspect-ratio: 5/9;
-    border: 5px; ;
+    border: 5px;
+    ;
 }
 
+
 /*----- Section footer -----*/
+
 a.text-white {
     text-decoration: none;
 }
-.section-features{
+
+.section-features {
     background-color: red;
+}
+
+.infolettre {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
