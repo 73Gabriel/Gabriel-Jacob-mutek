@@ -29,8 +29,8 @@ a.text-white {
 
 .infolettre {
     background-image:url(/assets/mutekinfolettre.jpg) ;
-    width: 80%;
+  
     background-size: cover;
-    background-repeat: no-repeat;
+   
     background-position: center;
 }
