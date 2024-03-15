@@ -18,13 +18,26 @@ body {
 
 .swiper-screenshots {
     position: relative;
-    width: 360px;
-    height: 640px;
+    width: 30vw;
+    height: 110vh;
     margin: auto;
     border: 16px black solid;
     border-top-width: 60px;
     border-bottom-width: 60px;
     border-radius: 36px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.iphone {
+    position: relative;
+    width: 30vw;
+    height: 110vh;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .swiper {
