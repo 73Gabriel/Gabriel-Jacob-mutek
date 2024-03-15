@@ -16,6 +16,22 @@ body {
     ;
 }
 
+.swiper-screenshots {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+}
+
+.swiper {
+    height: 530px;
+    width: 330px;
+}
+
 
 /*----- Section footer -----*/
 
@@ -28,9 +44,8 @@ a.text-white {
 }
 
 .infolettre {
-    background-image:url(../assets/mutekinfolettre.jpg) ;
-  
+    background-image: url(../assets/mutekinfolettre.jpg);
     background-size: cover;
-   
     background-position: center;
+    background-color: white;
 }
