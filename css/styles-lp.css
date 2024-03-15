@@ -39,13 +39,22 @@ a.text-white {
     text-decoration: none;
 }
 
-.section-features {
-    background-color: red;
-}
-
 .infolettre {
     background-image: url(../assets/mutekinfolettre.jpg);
     background-size: cover;
     background-position: center;
     background-color: white;
+}
+
+.section-features {
+    background-color: white;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
 }
