@@ -28,6 +28,21 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.swiper-slide {
+    width: calc(33.33% - 20px);
+    /* Calcul de la largeur pour afficher 3 éléments par slide avec un espace entre eux */
+    margin: 0 10px;
+    /* Espacement entre les éléments */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Ajout d'une ombre aux éléments */
+}
+
+.swiper-slide:first-child,
+.swiper-slide:last-child {
+    box-shadow: none;
+    /* Supprimer l'ombre des éléments aux extrémités */
+}
+
 .iphone {
     position: relative;
     width: 30vw;
