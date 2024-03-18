@@ -13,7 +13,6 @@ body {
 .application {
     aspect-ratio: 5/9;
     border: 5px;
-    ;
 }
 
 .swiper-screenshots {
@@ -30,17 +29,13 @@ body {
 
 .swiper-slide {
     width: calc(33.33% - 20px);
-    /* Calcul de la largeur pour afficher 3 éléments par slide avec un espace entre eux */
     margin: 0 10px;
-    /* Espacement entre les éléments */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Ajout d'une ombre aux éléments */
 }
 
 .swiper-slide:first-child,
 .swiper-slide:last-child {
     box-shadow: none;
-    /* Supprimer l'ombre des éléments aux extrémités */
 }
 
 .iphone {
@@ -68,14 +63,16 @@ a.text-white {
 }
 
 .infolettre {
-    background-image: url(../assets/mutekinfolettre.jpg);
+    background-image: url(../assets/infolettre.jpg);
     background-size: cover;
     background-position: center;
     background-color: white;
+    width: 100vw;
 }
 
 .section-features {
     background-color: white;
+    padding: 50px;
 }
 
 .card-container {
@@ -85,4 +82,36 @@ a.text-white {
 
 .card {
     flex: 1;
+}
+
+section.footer {
+    height: 20%;
+    background-color: var(--bs-light);
+}
+
+.container-infolettre {
+    background-color: white;
+    opacity: 0.5;
+}
+
+#section-view-more {
+    padding: 40px;
+}
+
+.section-testimonials {
+    padding: 30px;
+    background-color: var(--bs-dark);
+}
+
+.Témoignages {
+    color: white;
+}
+
+.faq {
+    background-color: var(--bs-info);
+    padding: 30px;
+}
+
+.infolettre {
+    padding: 30px;
 }

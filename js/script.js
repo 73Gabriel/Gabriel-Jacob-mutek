@@ -23,6 +23,7 @@ const swiper3 = new Swiper('.swiper-screenshots', {
             slidesPerView: 3,
             centeredSlides: true,
         },
+
     },
     navigation: {
         nextEl: '.swiper-button-next',
