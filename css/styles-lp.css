@@ -22,6 +22,10 @@ body {
     padding: 40px;
 }
 
+.voirplus {
+    color: white;
+}
+
 .swiper-screenshots {
     position: relative;
     width: 30vw;
