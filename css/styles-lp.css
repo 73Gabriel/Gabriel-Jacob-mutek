@@ -43,6 +43,7 @@ body {
     width: calc(33.33% - 20px);
     margin: 0 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 1;
 }
 
 .swiper-slide:first-child,
@@ -77,6 +78,7 @@ body {
     border-radius: 50px;
     transition: transform 0.5s;
     transform: scale(0.8);
+    opacity: 1;
 }
 
 
