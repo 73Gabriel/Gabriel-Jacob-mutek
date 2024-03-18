@@ -15,6 +15,13 @@ body {
     border: 5px;
 }
 
+
+/*----- Section view more-----*/
+
+#section-view-more {
+    padding: 40px;
+}
+
 .swiper-screenshots {
     position: relative;
     width: 30vw;
@@ -25,6 +32,7 @@ body {
     border-bottom-width: 60px;
     border-radius: 36px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--bs-info);
 }
 
 .swiper-slide {
@@ -51,12 +59,46 @@ body {
 }
 
 .swiper {
-    height: 530px;
-    width: 330px;
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 80%;
+    border-radius: 50px;
+    transition: transform 0.5s;
+    transform: scale(0.8);
 }
 
 
-/*----- Section footer -----*/
+/*----- Section témoignagnes -----*/
+
+.section-testimonials {
+    padding: 30px;
+    background-color: var(--bs-dark);
+}
+
+.Témoignages {
+    color: white;
+}
+
+
+/*----- Section infolettre -----*/
+
+.container-infolettre {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.faq {
+    background-color: var(--bs-info);
+    padding: 30px;
+}
 
 a.text-white {
     text-decoration: none;
@@ -68,6 +110,7 @@ a.text-white {
     background-position: center;
     background-color: white;
     width: 100vw;
+    padding: 30px;
 }
 
 .section-features {
@@ -84,36 +127,21 @@ a.text-white {
     flex: 1;
 }
 
+
+/*----- Section footer -----*/
+
 section.footer {
     height: 20%;
     background-color: var(--bs-light);
 }
 
-.container-infolettre {
-    background-color: white;
-    opacity: 0.5;
+section.footer {
+    background-color: var(--bs-primary);
 }
 
-#section-view-more {
-    padding: 40px;
-}
-
-.section-testimonials {
-    padding: 30px;
-    background-color: var(--bs-dark);
-}
-
-.Témoignages {
-    color: white;
-}
-
-.faq {
-    background-color: var(--bs-info);
-    padding: 30px;
-}
-
-.infolettre {
-    padding: 30px;
+.footer-text {
+    color: var(--bs-white);
+    font-size: 20px;
 }
 
 nav {
@@ -132,36 +160,6 @@ nav {
     .swiper-slide {
         opacity: 0.4;
     }
-}
-
-.swiper {
-    width: 100%;
-    height: 700px;
-}
-
-.swiper-screenshots {
-    background-color: var(--bs-info);
-}
-
-.swiper-slide-active {
-    opacity: 1;
-}
-
-.swiper-slide img {
-    display: block;
-    height: 80%;
-    border-radius: 50px;
-    transition: transform 0.5s;
-    transform: scale(0.8);
-}
-
-section.footer {
-    background-color: var(--bs-primary);
-}
-
-.footer-text {
-    color: var(--bs-white);
-    font-size: 20px;
 }
 
 a:last-child {
