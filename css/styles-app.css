@@ -15,7 +15,52 @@ body {
     text-align: center;
 }
 
+
+/*----- Section Hero -----*/
+
+
+
 .main { 
     margin: top;
 }
-/*----- Section Hero -----*/
+
+
+/* Carte*/
+
+body {
+    padding-bottom: 100px;
+    overflow-x: hidden;
+
+}
+.main { 
+    margin-top: 0;
+}
+.card {
+    background-color:rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 220px;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title, .card-text, .card-link, .bi-calendar, .bi-clock, .info {
+    color: #fff;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.plusieurscartes{ 
+    width: 140%;
+    
+}
+
