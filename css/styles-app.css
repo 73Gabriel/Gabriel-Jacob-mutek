@@ -24,6 +24,11 @@ body {
     margin: top;
 }
 
+.main-container {
+    max-width: 1200px; 
+    margin: 100px auto 0;
+}
+
 
 /* Carte*/
 
@@ -41,6 +46,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     max-width: 220px;
+    
 }
 .card:hover {
     transform: scale(1.02);
@@ -60,7 +66,6 @@ body {
 }
 
 .plusieurscartes{ 
-    width: 140%;
-    
+    width: 140%; 
 }
 
